@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_assets"
+            android:icon="@drawable/ic_menu_assets"
+            android:title="@string/menu_assets" />
+        <item
+            android:id="@+id/nav_rates"
+            android:icon="@drawable/ic_menu_rates"
+            android:title="@string/menu_rates" />
+        <item
+            android:id="@+id/nav_exchanges"
+            android:icon="@drawable/ic_menu_exchanges"
+            android:title="@string/menu_exchanges" />
+        <item
+            android:id="@+id/nav_markets"
+            android:icon="@drawable/ic_menu_markets"
+            android:title="@string/title_markets" />
+    </group>
+</menu>

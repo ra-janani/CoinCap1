@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_assets">
+
+    <fragment
+        android:id="@+id/nav_assets"
+        android:name="com.example.coincap1.ui.assets.AssetsFragment"
+        android:label="@string/menu_assets"
+        tools:layout="@layout/fragment_assets" >
+        <action
+            android:id="@+id/action_nav_assets_to_DAssetsFragment"
+            app:destination="@id/DAssetsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_rates"
+        android:name="com.example.coincap1.ui.rates.RatesFragment"
+        android:label="@string/menu_rates"
+        tools:layout="@layout/fragment_rates" >
+        <action
+            android:id="@+id/action_nav_rates_to_DRatesFragment"
+            app:destination="@id/DRatesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_exchanges"
+        android:name="com.example.coincap1.ui.exchanges.ExchangesFragment"
+        android:label="@string/menu_exchanges"
+        tools:layout="@layout/fragment_exchanges" >
+        <action
+            android:id="@+id/action_nav_exchanges_to_DExchangesFragment"
+            app:destination="@id/DExchangesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_markets"
+        android:name="com.example.coincap1.ui.markets.MarketsFragment"
+        android:label="@string/title_markets"
+        tools:layout="@layout/fragment_markets" >
+        <action
+            android:id="@+id/action_nav_markets_to_DMarketsFragment"
+            app:destination="@id/DMarketsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DAssetsFragment"
+        android:name="com.example.coincap1.ui.assetsDetails.DAssetsFragment"
+        android:label="fragment_d_assets"
+        tools:layout="@layout/fragment_d_assets" />
+    <fragment
+        android:id="@+id/DRatesFragment"
+        android:name="com.example.coincap1.ui.ratesdetails.DRatesFragment"
+        android:label="fragment_d_rates"
+        tools:layout="@layout/fragment_d_rates" />
+    <fragment
+        android:id="@+id/DMarketsFragment"
+        android:name="com.example.coincap1.ui.marketsdetails.DMarketsFragment"
+        android:label="fragment_d_markets"
+        tools:layout="@layout/fragment_d_markets" />
+    <fragment
+        android:id="@+id/DExchangesFragment"
+        android:name="com.example.coincap1.ui.exchangedetails.DExchangesFragment"
+        android:label="fragment_d_exchanges"
+        tools:layout="@layout/fragment_d_exchanges" />
+</navigation>

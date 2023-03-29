@@ -1,6 +1,11 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
+    // app level DI plugins
+    id 'kotlin-kapt'
+    id 'com.google.dagger.hilt.android'
+
 }
 
 android {
@@ -69,4 +74,11 @@ dependencies {
 // Kotlin
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version_ktx"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version_ktx"
+
+    //dependencies injections
+    implementation "com.google.dagger:hilt-android:2.44"
+    kapt "com.google.dagger:hilt-compiler:2.44"
+
+
+
 }

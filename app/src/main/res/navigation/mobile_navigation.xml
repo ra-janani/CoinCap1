@@ -47,21 +47,21 @@
     <fragment
         android:id="@+id/DAssetsFragment"
         android:name="com.example.coincap1.ui.assetsDetails.DAssetsFragment"
-        android:label="fragment_d_assets"
+        android:label="Assets Detail"
         tools:layout="@layout/fragment_d_assets" />
     <fragment
         android:id="@+id/DRatesFragment"
         android:name="com.example.coincap1.ui.ratesdetails.DRatesFragment"
-        android:label="fragment_d_rates"
+        android:label="Rates Detail"
         tools:layout="@layout/fragment_d_rates" />
     <fragment
         android:id="@+id/DMarketsFragment"
         android:name="com.example.coincap1.ui.marketsdetails.DMarketsFragment"
-        android:label="fragment_d_markets"
+        android:label="Markets Detail"
         tools:layout="@layout/fragment_d_markets" />
     <fragment
         android:id="@+id/DExchangesFragment"
         android:name="com.example.coincap1.ui.exchangedetails.DExchangesFragment"
-        android:label="fragment_d_exchanges"
+        android:label="Exchanges Detail"
         tools:layout="@layout/fragment_d_exchanges" />
 </navigation>

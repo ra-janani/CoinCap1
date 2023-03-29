@@ -11,7 +11,9 @@ import com.example.coincap1.R
 import com.example.coincap1.data.exchanges.DataModel
 
 import com.example.coincap1.databinding.FragmentDExchangesBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DExchangesFragment : Fragment() {
 
     private var _binding: FragmentDExchangesBinding? = null

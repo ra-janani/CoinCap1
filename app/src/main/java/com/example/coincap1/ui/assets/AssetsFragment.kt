@@ -9,10 +9,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.coincap1.R
-import com.example.coincap1.data.assets.DataModel
 import com.example.coincap1.data.assets.AssetsModel
+import com.example.coincap1.data.assets.DataModel
 import com.example.coincap1.databinding.FragmentAssetsBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class AssetsFragment : Fragment() {
 
     private lateinit var viewModel: AssetsViewModel

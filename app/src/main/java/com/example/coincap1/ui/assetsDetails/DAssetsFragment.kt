@@ -10,7 +10,9 @@ import com.example.coincap1.R
 import com.example.coincap1.data.assets.DataModel
 import com.example.coincap1.databinding.FragmentDAssetsBinding
 import com.example.coincap1.ui.assetsDetails.DAssetsViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DAssetsFragment : Fragment() {
 
     private var _binding: FragmentDAssetsBinding? = null

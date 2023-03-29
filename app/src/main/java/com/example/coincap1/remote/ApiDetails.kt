@@ -11,10 +11,10 @@ object ApiDetails {
     const val END_PT3="/v2/exchanges"
     const val END_PT4 = "/v2/markets"
 
-    fun getInstance(): Retrofit =
+    /*fun getInstance(): Retrofit =
         Retrofit.Builder()//its pattern that helps build an object with different properties
             .baseUrl(BASE_URL1) // setting the common BASE url for all
             .addConverterFactory(GsonConverterFactory.create(Gson())) //Convert your JSON data to Data class
 
-            .build() // finalize the object/builder
+            .build() // finalize the object/builder*/
 }

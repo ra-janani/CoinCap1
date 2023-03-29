@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.coincap1.R
-import com.example.coincap1.data.assets.AssetsModel
 import com.example.coincap1.data.assets.DataModel
 import com.example.coincap1.databinding.ItemAssetsBinding
 
